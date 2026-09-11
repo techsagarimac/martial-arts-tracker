@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Testing / typing
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Environment and secrets
+.env
+.env.local
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Application data (keep folder structure)
+data/*.db
+data/*.sqlite
+data/logs/*
+!data/logs/.gitkeep
+data/uploads/*
+!data/uploads/.gitkeep
+data/sessions/*
+!data/sessions/.gitkeep
+data/ml_dataset/*
+!data/ml_dataset/.gitkeep
+data/exports/*
+!data/exports/.gitkeep
+data/models/*.task
+data/models/*.tflite
+
+# Streamlit
+.streamlit/secrets.toml

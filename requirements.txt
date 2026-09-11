@@ -1,0 +1,10 @@
+# Python 3.10–3.12 recommended (3.12 is the most reliable for MediaPipe Pose).
+# MediaPipe 0.10.30+ ships opencv-contrib-python and the Tasks Pose Landmarker API.
+streamlit>=1.32.0,<2
+opencv-contrib-python>=4.8.0
+numpy>=1.24.0,<3
+pandas>=2.0.0,<3
+plotly>=5.18.0,<7
+mediapipe>=0.10.14,<0.11
+python-dotenv>=1.0.0,<2
+pytest>=8.0.0,<9
